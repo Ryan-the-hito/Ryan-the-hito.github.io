@@ -1,0 +1,15 @@
+<div>
+  You are visitor number <span id="counter">0</span>.
+</div>
+
+<script>
+  // 获取当前计数器的数值
+  var counter = document.getElementById("counter").textContent;
+  
+  // 将当前计数器数值加 1
+  counter = parseInt(counter) + 1;
+  
+  // 更新计数器显示的文本标签
+  document.getElementById("counter").textContent = counter;
+</script>
+
